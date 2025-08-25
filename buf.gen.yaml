@@ -1,0 +1,13 @@
+version: v1
+plugins:
+  - name: go
+    out: generated/go
+  - name: go-grpc
+    out: generated/go
+  - name: js
+    out: generated/js
+  - name: grpc-web
+    out: generated/js
+    opt:
+      - import_style=typescript
+      - mode=grpcwebtext

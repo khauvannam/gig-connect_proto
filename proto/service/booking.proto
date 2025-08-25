@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package service;
+
+message Booking {
+  string id = 1;
+  string user_id = 2;
+  string date = 3;
+}
