@@ -1,0 +1,49 @@
+
+# Node / JS / TS
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+venv/
+
+# Go
+bin/
+*.exe
+*.test
+*.out
+
+# Java / Gradle / Maven
+target/
+build/
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+
+# Protobuf generated code
+generated/
+*.pb.go
+*.pb.js
+*.pb.ts
+*.pb.py
+*.pb.cc
+*.pb.h
+
+# Buf build cache
+.buf/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
